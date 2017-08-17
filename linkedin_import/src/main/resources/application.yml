@@ -1,7 +1,7 @@
 linkedin:
   client:
-      clientId: [Your Applicaion Key]
-      clientSecret: [Your Application Secret]
+      clientId: 78xdqcj1hualk0
+      clientSecret: 9COf1uy0Oadxikqe
       userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
       accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
       scope:
@@ -9,4 +9,4 @@ linkedin:
       authenticationScheme: header
       clientAuthenticationScheme: form
   resource:
-    userInfoUri: https://api.linkedin.com/v1/people/~:(email_address)?format=json
+    userInfoUri: https://api.linkedin.com/v1/people/~:(first-name,last-name,headline,summary,email-address)?format=json
